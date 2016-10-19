@@ -1,0 +1,20 @@
+.feature-title {
+    font-family: $primary-font;
+    font-weight: $primary-font-light;
+    color: $swatch-five;
+    font-size: 1.7em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+.feature-text {
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+.features {
+    text-align: center;
+    padding-bottom: 3em;
+}
+.feature-pic-link:hover {
+    @include transition-duration(0.5s);
+    @include opacity(0.5);
+}

@@ -1,0 +1,25 @@
+//Footer Styles
+.footer {
+	background: url(../img/film-border.jpg) repeat-x top center;
+	background-color: black;
+	padding-top: 2em;
+}
+.footer h4 {
+	font-size: 1em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid;
+	margin-bottom: 0.5em;
+}
+.footer p, .footer ul {
+	font-size: 0.8em;
+}
+.footer ul li{
+	margin-bottom: 1em;
+}
+.footer a {
+	color: $swatch-five;
+	
+	&:hover {
+		color: $swatch-two;
+	}
+}

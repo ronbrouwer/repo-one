@@ -1,0 +1,42 @@
+// Styles set here should be global (more or less)
+
+//Set background parameters for HTML element
+.master-bg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+//Set background image based on HTML class
+.bg1 { 
+    background: url(../img/html-bg-temp.jpg) no-repeat center center fixed; 
+}
+body {
+    font-family: $secondary-font;
+    font-weight: $secondary-font-light;
+    color: $swatch-one;
+}
+
+// Set header menu links as active depending on body class
+.homepage .home,
+.page-one .item-one,
+.page-two .item-two,
+.page-three .item-three,
+.page-four .item-four {
+    background-color: $swatch-five;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%; 
+}
+.grid {
+    background: white;
+    background:rgba(255,255,255,0.9);
+}
+.grid-pad {
+    padding-top: 0;
+}

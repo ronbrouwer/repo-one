@@ -1,0 +1,81 @@
+.header {
+    background-image:url(../img/lens.png);
+    background-repeat: no-repeat;
+    background-position: 85% 0%;
+    background-size: contain;
+    
+        @media screen and (max-width: $break-small) {
+        background-image: none;
+    }
+}
+.brand {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.brand-title {
+    font-family: $primary-font;
+    font-size: 4em;
+    font-weight: $primary-font-thin;
+    color: $swatch-five;
+    padding-bottom: 0.2em;
+}
+.brand-tagline {
+    font-weight: $secondary-font-light;   
+}
+.navigation {
+    background-color: $swatch-three;
+    font-family: $primary-font;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    overflow:hidden;
+    
+    @media screen and (max-width: $break-small) {
+        background: white;
+        background:rgba(255,255,255,0.9);
+    }
+}
+.main-menu {
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.3em;
+    width: 100%;
+}
+.main-menu li {
+    display:inline;
+    margin-right: -4px;
+    
+        @media screen and (max-width: $break-small) {
+        background-color: $swatch-three;
+        display: block;
+        margin-right: 0;
+        overflow: hidden;
+    }
+}
+.menu-item {
+    padding: 0.2em 3em;
+    border-right: 1px solid #fff;
+    color: $swatch-five;
+    
+        @media screen and (max-width: $break-small) {
+        border-right: 0;
+        border-top: 1px solid #fff;
+        width: 100%;
+        float: left;
+        padding: 1em 0;
+    }
+    
+    &:hover {
+        background-color: $swatch-five;
+        color: white;
+        @include transition-duration(0.3s);
+    }
+}
+    
+.home {
+    border-left: 1px solid #fff;
+    
+        @media screen and (max-width: $break-small) {
+        border-left: 0;
+
+        }
+}

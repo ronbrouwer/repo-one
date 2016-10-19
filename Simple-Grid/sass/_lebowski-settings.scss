@@ -1,0 +1,29 @@
+// Import Google Web Fonts
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+@import url(//fonts.googleapis.com/css?family=Roboto:300,500,900);
+
+// Font Families
+$primary-font: "Roboto Slab", serif;
+$secondary-font: "Roboto", sans-serif;
+
+// Primary Font Weights
+$primary-font-thin: 100;
+$primary-font-light: 300;
+$primary-font-regular: 400;
+$primary-font-bold: 700;
+
+// Secondary Font Weights
+$secondary-font-light: 300;
+$secondary-font-medium: 500;
+$secondary-font-ultra: 900;
+
+//Colours
+$swatch-one: #595241; //dark warm gray
+$swatch-two: #B8AE9C; //light warm gray
+$swatch-three: #ddd; //pale
+$swatch-four: #accfcc; // light cool gray
+$swatch-five: #8A0917; //rich red
+
+//Media Breakpoints
+$break-small: 768px;
